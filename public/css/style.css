@@ -79,6 +79,10 @@ textarea:focus {
 
 }
 
+.embed #control {
+  height: 29px;
+}
+
 #control, .label {
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -174,6 +178,10 @@ a:hover {
   width: 100%;
   z-index: 2;
   display: none;
+}
+
+.embed #bin {
+  top: 30px;
 }
 
 .panelsVisible #bin {
@@ -1925,6 +1933,10 @@ a.active:hover {
   padding: 6px 10px;
 }
 
+.embed .menu > a.button {
+  padding: 3px 10px;
+}
+
 #panels {
   /*width: 480px;*/
   /*margin: 3px auto 0 auto;*/
@@ -2011,6 +2023,11 @@ a.active:hover {
 #panels .button:last-child {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.embed #panels .button {
+  height: 11px;
+  line-height: 11px;
 }
 
 .label {
