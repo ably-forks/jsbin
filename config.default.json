@@ -55,6 +55,10 @@
     "allowReadOnly": true,
     "requireSSL": false
   },
+  "github": {
+    "id": null,
+    "secret": null
+  },
   "blacklist": {
     "html": ["processform.cgi", "habbo.com"],
     "css": [],
